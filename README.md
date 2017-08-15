@@ -5,7 +5,9 @@
 - selenium
 ## 2. 설치
 - python 설치 [다운](https://www.python.org/downloads/)
-- $ pip install selenium
+```
+$ pip install selenium
+```
 ## 3. webdriver
 - [Chrome](https://sites.google.com/a/chromium.org/chromedriver/downloads) (/chromedriver 사용)
 - [PhantomJS](http://phantomjs.org/download.html) (/bin/phantomjs 사용)
@@ -15,6 +17,7 @@
 ## 4. 사용하기
 ```python
 from selenium import webdrver
-driver = webdriver.Chrome('/Users/1004w455/Documents/selenium/driver/chromedriver')
+driver = webdriver.Chrome('/드라이버위치/chromedriver')
 driver.get('https://google.com')
+...
 ```
